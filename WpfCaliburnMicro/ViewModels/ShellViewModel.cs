@@ -68,10 +68,10 @@ namespace WpfCaliburnMicro.ViewModels
             }
         }
 
-        public bool CanClearText(string firstName, string lastName) => !String.IsNullOrWhiteSpace(firstName) && !String.IsNullOrWhiteSpace(lastName);
-        //{
-        //    return !String.IsNullOrWhiteSpace(firstName) && !String.IsNullOrWhiteSpace(lastName);
-        //}
+        public bool CanClearText(string firstName, string lastName)//  => !String.IsNullOrWhiteSpace(firstName) && !String.IsNullOrWhiteSpace(lastName);
+        {
+            return !String.IsNullOrWhiteSpace(firstName) && !String.IsNullOrWhiteSpace(lastName);
+        }
 
         public void ClearText(string firstName, string lastName)
         {
