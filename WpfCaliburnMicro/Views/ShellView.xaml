@@ -23,6 +23,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
@@ -42,8 +43,14 @@
                   DisplayMemberPath="FirstName"></ComboBox>
         <TextBlock Grid.Row="3" Grid.Column="2" x:Name="SelectedPerson_LastName"></TextBlock>
 
-        <!--Row 3-->
+        <!--Row 4-->
         <Button x:Name="ClearText" Grid.Row="4" Grid.Column="1">Clear Text</Button>
+
+        <!--Row 5-->
+        <Button x:Name="LoadPageOne" Grid.Row="5" Grid.Column="1" Margin="5">Load First Page</Button>
+        <Button x:Name="LoadPageTwo" Grid.Row="5" Grid.Column="2" Margin="5">Load Second Page</Button>
+        <!--Row 6-->
+        <ContentControl Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="5" x:Name="ActiveItem"/>
 
     </Grid>
 </Window>

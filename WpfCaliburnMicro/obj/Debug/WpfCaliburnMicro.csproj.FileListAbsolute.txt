@@ -23,3 +23,7 @@ C:\Andersen\StudyProjects\WPF\WpfCM\WpfCaliburnMicro\obj\Debug\WpfCaliburnMicro.
 C:\Andersen\StudyProjects\WPF\WpfCM\WpfCaliburnMicro\obj\Debug\WpfCaliburnMicro.csproj.CopyComplete
 C:\Andersen\StudyProjects\WPF\WpfCM\WpfCaliburnMicro\obj\Debug\WpfCaliburnMicro.exe
 C:\Andersen\StudyProjects\WPF\WpfCM\WpfCaliburnMicro\obj\Debug\WpfCaliburnMicro.pdb
+C:\Andersen\StudyProjects\WPF\WpfCM\WpfCaliburnMicro\obj\Debug\Views\FirstChildView.g.cs
+C:\Andersen\StudyProjects\WPF\WpfCM\WpfCaliburnMicro\obj\Debug\Views\SecondChildView.g.cs
+C:\Andersen\StudyProjects\WPF\WpfCM\WpfCaliburnMicro\obj\Debug\Views\FirstChildView.baml
+C:\Andersen\StudyProjects\WPF\WpfCM\WpfCaliburnMicro\obj\Debug\Views\SecondChildView.baml

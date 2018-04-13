@@ -8,7 +8,7 @@ using WpfCaliburnMicro.Models;
 
 namespace WpfCaliburnMicro.ViewModels
 {
-    public class ShellViewModel : Screen
+    public class ShellViewModel : Conductor<object>// Screen
     {
 
         public ShellViewModel()
@@ -77,6 +77,16 @@ namespace WpfCaliburnMicro.ViewModels
         {
             FirstName = "";
             LastName = "";
+        }
+
+        public void LoadPageOne()
+        {
+            ActivateItem( new FirstChildViewModel());
+        }
+
+        public void LoadPageTwo()
+        {
+            ActivateItem(new SecondChildViewModel());
         }
 
     }
